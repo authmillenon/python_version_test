@@ -6,7 +6,7 @@
 #
 # Distributed under terms of the MIT license.
 
-print("%s" % "test")
-print("%02d" % 2)
-print("%.4f" % 2.0)
+print("{:s}".format("test"))
+print("{:02d}".format(2))
+print("{:.4f}".format(2.0))
 
