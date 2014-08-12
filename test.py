@@ -6,7 +6,7 @@
 #
 # Distributed under terms of the MIT license.
 
-"%s" % "test"
-"%d" % 2
-"%.4f" % 2.0
+print("%s" % "test")
+print("%02d" % 2)
+print("%.4f" % 2.0)
 
